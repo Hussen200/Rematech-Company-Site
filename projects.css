@@ -1,0 +1,91 @@
+body{
+    background: rgba(180, 178, 178, 0.664);
+}
+main{
+    text-align: center;
+    padding-top: 65px;
+    /* background: rgba(180, 178, 178, 0.664); */
+    background: rgba(235, 230, 230, 0.664);
+    height: fit-content;
+}
+main section#firstpage h1{
+    color: var(--bg-color);
+    text-decoration: underline;
+}
+main section#headtext h4{
+    text-decoration: none;
+    color: rgb(63, 61, 61);
+    padding: 10px;
+}
+h1{
+    color: var(--bg-color);
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+.text{
+    /* height: 200px; */
+    width: 500px;
+    padding-left: 30px;
+    justify-content: center;
+}
+main section#firstpage{
+    background: url(./img/bg.jpg);
+    padding: 1rem;
+}
+main section#firstpage #top-name{
+    width: 100%;
+}
+aside{
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+    font-style: italic;
+}
+.page{
+    height: fit-content;
+}
+.container{
+    color: rgb(63, 61, 61);
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.small-img{
+    width: 320px;
+    height: 250px;
+    object-fit: scale-down;
+    border: 1px var(--bg-color) solid;
+}
+div.image-text p{
+    max-width: 764px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+#project1{
+    height: fit-content;
+    margin-bottom: 30px;
+}
+#project1-heading{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+    main section#firstpage #top-name{
+        padding-top: 100px;
+    }
+    .text{
+        height: 155px;
+        width: 350px;
+        padding-left: 30px;
+    }
+    .small-img{
+        width: 220px;
+        height: 150px;
+        object-fit: scale-down;
+        border: 1px var(--bg-color) solid;
+    }
+  }
